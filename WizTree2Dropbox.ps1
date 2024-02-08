@@ -19,6 +19,7 @@ $WebClient.DownloadFile("{YOUR LINK TO WizTree64.exe HERE}","C:\Temp\WizTree64.e
 
 $SourceFilePath = "C:\Temp\wiztree_export.csv"
 
+# This uploads the csv report to the folder /Ninja Reports/WizTreet Reports" in your Dropbox account. Share the "Ninja Reports" folder with your actual Dropbox account.
 $TargetFilePath = "/Ninja Reports/WizTree Reports/$env:computername.csv"
 
 $Token = "{YOUR DROPBOX API TOKEN HERE}"
